@@ -23,16 +23,15 @@ export function setup(app: PiletApi) {
     autoClose: 2000,
   });
   app.registerMenu(() => <Link to="/page">Page</Link>);
-  app.registerMenu(() => <Link to="/ng-page">Angular-Pages</Link>);
+  app.registerMenu(() => <Link to="/foo">Angular-Pages</Link>);
   
   app.registerTile(() => <div>Welcome to Piral!</div>, {
     initialColumns: 2,
     initialRows: 2,
   });
 
-
   defineNgModule(AppModule);
-  app.registerPage("ng-page/*", fromNg(AppComponent));
+  app.registerPage("foo/*", fromNg(AppComponent));
 
   app.registerTile(fromNg(Tile), {
     initialColumns: 2,

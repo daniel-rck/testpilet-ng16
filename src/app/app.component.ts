@@ -1,6 +1,11 @@
-import { Component } from "@angular/core";
+import { Component, Inject } from "@angular/core";
 
 @Component({
-  templateUrl: "./app.component.html",
+  template: require("./app.component.html"),
 })
-export class AppComponent {}
+export class AppComponent {
+
+  constructor(@Inject('piral') piral: any) {
+    console.log('AppComponent rendered', piral.meta);
+  }
+}

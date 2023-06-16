@@ -23,7 +23,7 @@ import { Tile } from "../Tile";
     SecondPageComponent,
     Tile
   ],
-  exports: [
+  bootstrap: [
     AppComponent,
     Tile
   ],
