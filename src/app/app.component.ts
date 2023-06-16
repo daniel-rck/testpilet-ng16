@@ -1,11 +1,9 @@
-import { Component, Inject } from "@angular/core";
+import { Component } from "@angular/core";
 
 @Component({
   template: require("./app.component.html"),
+  // styles: [require("./app.component.scss")],
 })
 export class AppComponent {
-
-  constructor(@Inject('piral') piral: any) {
-    console.log('AppComponent rendered', piral.meta);
-  }
+  title = "Another title bites the dust";
 }
