@@ -31,7 +31,7 @@ export function setup(app: PiletApi) {
   });
 
   defineNgModule(AppModule);
-  app.registerPage("foo/*", fromNg(AppComponent));
+  app.registerPage('/foo*', fromNg(AppComponent));
 
   app.registerTile(fromNg(Tile), {
     initialColumns: 2,

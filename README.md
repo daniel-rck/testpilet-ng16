@@ -6,3 +6,16 @@
 - Navigate to `/foo`
 
 > why  404?
+
+# Reason
+
+Failing:
+```ts
+  app.registerPage('/foo/*', fromNg(AppComponent));
+```
+
+Working:
+
+```ts
+  app.registerPage('/foo*', fromNg(AppComponent));
+```
