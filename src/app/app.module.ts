@@ -20,7 +20,8 @@ import { Tile } from "../Tile";
   declarations: [
     AppComponent,
     FirstPageComponent,
-    SecondPageComponent
+    SecondPageComponent,
+    Tile
   ],
   exports: [
     AppComponent,
