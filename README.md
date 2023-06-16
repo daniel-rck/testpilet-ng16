@@ -3,6 +3,6 @@
 - `npm i`
 - `npm run build`
 - `npm run start`
-- Navigate to `/ng-page`
+- Navigate to `/foo`
 
 > why  404?
