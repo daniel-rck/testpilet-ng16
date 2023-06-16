@@ -17,5 +17,5 @@ Failing:
 Working:
 
 ```ts
-  app.registerPage('/foo*', fromNg(AppComponent));
+  app.registerPage('/foo/:path*', fromNg(AppComponent));
 ```
