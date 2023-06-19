@@ -5,7 +5,7 @@
   "keywords": [
     "pilet"
   ],
-  "scripts": {
+  "scripts": {    
     "start": "pilet debug",
     "build": "pilet build",
     "upgrade": "pilet upgrade",
@@ -19,7 +19,7 @@
     "@angular/platform-browser-dynamic": "^16.1.1",
     "@angular/router": "^16.1.1",
     "core-js": "^3.19.0",
-    "piral-ng": "^1.0.0",
+    "piral-ng": "^1.0.1",
     "rxjs": "^7.4",
     "zone.js": "~0.13.0"
   },
@@ -31,14 +31,14 @@
     "@types/react-dom": "^18.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "html-loader": "^4.2.0",
-    "piral-cli": "1.0.0",
-    "piral-cli-webpack5": "^1.0.0",
+    "piral-cli": "^1.0.1",
+    "piral-cli-webpack5": "^1.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router": "5.3.3",
     "react-router-dom": "5.3.3",
     "reactstrap": "8.10.1",
-    "sample-piral": "1.0.0",
+    "sample-piral": "1.0.1",
     "to-string-loader": "^1.2.0",
     "tslib": "2.5.2",
     "typescript": "latest"
