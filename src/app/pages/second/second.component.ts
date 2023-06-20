@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { SearchbarComponent } from '../../components/searchbar/searchbar.component';
+import { SearchbarComponent } from 'src/app/components/searchbar/searchbar.component';
 
 @Component({
   templateUrl: './second.component.html',
