@@ -30,6 +30,7 @@ export function setup(app: PiletApi) {
     initialRows: 2,
   });
 
+  // Angular stuff
   defineNgModule(AppModule);
   app.registerPage('/foo/:path*', fromNg(AppComponent));
 

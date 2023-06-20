@@ -3,8 +3,8 @@ import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from "./app.component";
-import { FirstPageComponent } from "./first.component";
-import { SecondPageComponent } from "./second.component";
+import { FirstPageComponent } from "./pages/first/first.component";
+import { SecondPageComponent } from "./pages/second/second.component";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { SharedModule } from 'piral-ng/common';
@@ -20,7 +20,6 @@ import { Tile } from "../Tile";
   declarations: [
     AppComponent,
     FirstPageComponent,
-    SecondPageComponent,
     Tile
   ],
   exports: [

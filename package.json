@@ -5,43 +5,43 @@
   "keywords": [
     "pilet"
   ],
-  "scripts": {    
+  "scripts": {
     "start": "pilet debug",
     "build": "pilet build",
     "upgrade": "pilet upgrade",
     "upgrade-pilet": "pilet upgrade --force-overwrite yes"
   },
-  "dependencies": {
+  "devDependencies": {
     "@angular/common": "^16.1.1",
+    "@angular/compiler": "^16.1.1",
     "@angular/core": "^16.1.1",
     "@angular/forms": "^16.1.1",
     "@angular/platform-browser": "^16.1.1",
     "@angular/platform-browser-dynamic": "^16.1.1",
     "@angular/router": "^16.1.1",
-    "core-js": "^3.19.0",
-    "piral-ng": "^1.0.1",
-    "rxjs": "^7.4",
-    "zone.js": "~0.13.0"
-  },
-  "devDependencies": {
-    "@angular/compiler": "^16.1.1",
     "@ngtools/webpack": "^16.1.0",
+    "@types/jasmine": "^4.3.4",
     "@types/node": "latest",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "copy-webpack-plugin": "^11.0.0",
+    "core-js": "^3.19.0",
     "html-loader": "^4.2.0",
-    "piral-cli": "^1.0.1",
+    "jasmine-core": "^5.0.1",
+    "piral-cli": "1.0.1",
     "piral-cli-webpack5": "^1.0.1",
+    "piral-ng": "^1.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router": "5.3.3",
     "react-router-dom": "5.3.3",
     "reactstrap": "8.10.1",
+    "rxjs": "^7.4",
     "sample-piral": "1.0.1",
     "to-string-loader": "^1.2.0",
     "tslib": "2.5.2",
-    "typescript": "latest"
+    "typescript": "latest",
+    "zone.js": "~0.13.0"
   },
   "main": "dist/index.js",
   "files": [

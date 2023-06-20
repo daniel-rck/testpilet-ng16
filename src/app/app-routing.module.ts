@@ -1,8 +1,8 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 
-import { FirstPageComponent } from "./first.component";
-import { SecondPageComponent } from "./second.component";
+import { FirstPageComponent } from "./pages/first/first.component";
+import { SecondPageComponent } from './pages/second/second.component';
 
 const routes: Routes = [
   { path: "foo", redirectTo: "/foo/one", pathMatch: "full" },
