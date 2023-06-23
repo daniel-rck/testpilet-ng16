@@ -1,9 +1,17 @@
 # Current status
 
-> Working
+> Packing has double-entries in package/dist/ Folder
 
-# Start
+# Environment
+
+```sh
+node 18.14.0
+npm 9.5.0
+piral-cli 1.0.1
+```
+
+# Steps to reproduce
 
 - `npm i`
 - `npm run build`
-- `npm run start`
+- `pilet pack`
